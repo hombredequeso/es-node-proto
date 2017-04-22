@@ -8,8 +8,18 @@ Playing around with Elasticsearch through nodejs
 
 ```shell
 npm install
-node info
 ```
+
+Most of the .js files are intended to be run as standalone. For example:
+
+```shell
+node --use_strict info
+node --use_strict .\bulk-populate.js
+```
+
+Queries to paste into kibana are in kibana.queries.sh
+
+## Notes
 
 Start off roughly following:
 [Getting started with Elasticsearch and Node.js](https://www.compose.com/articles/getting-started-with-elasticsearch-and-node/)
